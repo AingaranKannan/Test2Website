@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="Jsquery/Jsfile.js"></script>
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class='fa fa-bars' style='color: white'></i>
+            </label>
+            <label class="navbar">Marlensoft</label>
+            <ul>
+                <li><a  href="index.html">Home</a></li>
+                <li><a href="Approach.html">Approach</a></li>
+                <li><a href="Us.html">Us</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a class="active" href="#">Contact</a></li>
+            </ul>           
+        </nav> 
+        <div class="cnt">
+            <h3>Contact Us Today</h3>
+            <div class="Contactdiv">
+                <div class="container">        
+                <label class="contlab">FirstName</label>
+                <i class="fa fa-user icon" aria-hidden="true"></i>
+                <input type="text" name="Name" placeholder="FirstName" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">LastName</label>
+                <i class="fa fa-user icon" aria-hidden="true"></i>
+                <input type="text" name="Name" placeholder="LastName" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">Email</label>
+                <i class="fa fa-envelope icon" aria-hidden="true"></i>
+                <input type="email" name="Email" placeholder="EmailAddress" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">PhoneNo</label>
+                <i class="fa fa-phone-square icon" aria-hidden="true"></i>
+                <input type="number" name="ContactNo" placeholder="ContactNo" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">Address</label>
+                <i class="fa fa-address-book icon" aria-hidden="true"></i>
+                <input type="text" name="Address" placeholder="Address" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">City</label>
+                <i class="fa fa-address-book icon" aria-hidden="true"></i>
+                <input type="text" name="City" placeholder="City" class="InputField">
+            </div>
+            <div class="container">
+                <label class="contlab">State</label>
+                <i class="fa fa-list icon" aria-hidden="true"></i>
+            <select name="State" class="InputField">
+                <option>Please select</option>
+                <option>TamilNadu</option>
+                <option>Kerla</option>
+                <option>Andhra</option>
+                <option>Karnataka</option>
+                <option>Delhi</option>
+                <option>Goa</option>
+                <option>Jeipur</option>
+            </select>
+        </div>
+        <div class="container">
+            <label class="contlab">Zip Code</label>
+            <i class="fa fa-address-book icon" aria-hidden="true"></i>
+            <input type="number" name="ZipCode" placeholder="ZipCode" class="InputField">
+        </div>
+        <div class="container"> 
+            <label class="contlab">Web Site or Domin Name</label>
+            <i class="fa fa-globe icon" aria-hidden="true"></i>
+            <input type="text" name="Website" placeholder="Web Site or Domin Name" class="InputField">
+            <br>
+            <br>
+        </div>
+        <div class="container">
+            <label class="contlab">Do you have hosting</label>
+            <input type="radio" id="contactChoice2"  name="contact" value="Yes">
+            <label  for="Choice1">Yes</label>
+            <br>
+            <input type="radio" id="contactChoice1"  name="contact" value="No">
+            <label  for="Choice2">No</label>
+            <br>
+            <br>
+        </div>
+        <div class="container">
+            <label class="contlab">Project Description</label>
+            <i class="fa fa-pencil-square icon" aria-hidden="true"></i>
+           <textarea class="InputField"></textarea>
+           <br>
+           <br>
+        </div>
+        <button class="btons" onclick="fnc()"> <i class="fa fa-paper-plane" aria-hidden="true"></i>Submit</button>
+        <br>
+<br>
+        <h3>Marlensoft &copy;</h3>
+        </div>
+        
+    </body>
+</html>

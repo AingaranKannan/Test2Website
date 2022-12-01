@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    
+    background: gray;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+}
+label.navbar{
+    float: right;
+    margin-right: 100px;
+    color: white;
+    font-size: 50px;
+    line-height: 2cm; 
+
+}
+nav ul{
+float: left;
+margin-left: 0px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff; 
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+display: none;
+}
+@media(max-width: 920px){
+    label.navbar{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width: 858px){
+.checkbtn{
+    display: block;
+}
+ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+}
+nav ul li a{
+font-size: 20px;
+}
+a:hover,a.active{
+    background-color: none;
+    color: #0082e6;
+}
+#check:checked ~ul{
+    left:0;
+}
+}
+.divsion{
+    background-color: gray;
+    width: 100%;
+    font-weight: bold;
+    padding-top: 80px;
+    font-size: 40px;
+}
+.divsion2{
+  background-color: #00B5E2;
+    width: 100%;
+   
+    font-weight: bold;
+    padding-top: 0px;
+    text-align: center;
+}
+.imge1{
+    width: 400px;
+    border-radius: 200px;
+    object-fit: cover;
+}
+.division3{
+    text-align: center;
+    background-color:  #00B5E2;
+    font-size: 40px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    padding-top: 0px;
+}
+.bton1{
+    background-color: yellow;
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+}
+.divsion4{
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    height: 300px;
+    font-weight: bold;
+    padding-top: 0px;
+    font-size: 20px;
+}
+.text1{
+     height: 50px;
+     width: 250px;
+}
+.bton2{
+    background-color: yellow;
+    height: 50px;
+    width: 100px; 
+    border-radius: 5px;
+}
+.Contactdiv{
+    text-align: center;
+    font-size: 20px;    
+}
+.cnt{
+    background-color: gray;
+    padding-top: 100px;
+    font-size: 20px;
+}
+.btons{
+    height: 40px;
+    width: 80px;  
+    border-radius: 5px;
+
+}
+.container{
+    display: flex;
+    display: -ms-flexbox;
+    width: 80%;
+    margin-bottom: 10px;
+    text-align:center ;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.InputField{
+    width: 170px;
+    padding: 10px;
+    height: 50px;
+    outline:none;
+    margin-top: 10px;
+}
+.contlab{
+    width: 300px;
+    margin-right: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.div6{
+    background-image: url(Image/Coding-Robots.webp);
+    font-size: 40Px;
+    padding-left: 20px;
+    background-size: 100%;
+
+}
+.div7{
+   background-color:gray;
+   padding-left: 20px;
+   font-size: 40Px;
+}
+.div21{
+    background-image:url(Image/MoveOn.jpg);
+    font-size: 40Px;
+   background-size: cover;
+}
+.one{
+    color: #00B5E2;
+}
+.icon{
+    padding: 10px;
+    text-align: center;
+    background-color: #00B5E2;
+    min-width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
